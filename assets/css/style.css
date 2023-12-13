@@ -63,11 +63,11 @@ nav .active a, nav a:hover{
 #banner{
     display: flex;
     justify-content: center;
-    background: url(/assets/images/img1.jpg);
+    background: url(/assets/images/hero.jpeg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 670px;
+    height: 550px;
 }
 
 .column{
@@ -81,19 +81,15 @@ nav .active a, nav a:hover{
     justify-content: center;
 }
 
-.banner_headline h1{
-    color: var(--Color-font-hover);
-    font-size: 70px;
-    text-shadow: 0 1px 0 #555;
-    max-width: 350px;
+.banner_headline h2{
+    color: var(--Color-widget);
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    max-width: 500px;
+    
 }
 
-.banner_headline h2{
-    color: var(--Color-font-hover);
-    font-size: 21px;
-    text-shadow: 0 1px 0 #555;
-    max-width: 350px;
-}
+
 .banner_options{
     height: 270px;
     display: flex;
